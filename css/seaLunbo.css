@@ -1,0 +1,308 @@
+
+
+@charset"utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+   
+    font-family: "微软雅黑";
+}
+html {
+    -webkit-text-size-adjust: none;
+}
+body {
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+ul, li, dl, dt, dd, ol {
+    list-style: none;
+}
+img {
+    border: none;
+}
+a, area {
+    blr: expression(this.onFocus=this.blur());
+}
+a {
+    color: #666666;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+/* public style */
+
+.header, .main, .footer {
+    width: 100%;
+}
+.pageWidth {
+    width: 1180px;
+    margin: 0 auto;
+}
+.f12 {
+    font-size: 12px;
+}
+.f14 {
+    font-size: 14px;
+}
+.black, a.black {
+    color: #333333;
+}
+.gray, a.gray {
+    color: #aaaaaa;
+}
+.white, a.white {
+    color: #ffffff;
+}
+.red, a.red {
+    color: red;
+}
+.green, a.green {
+    color: green;
+}
+.clear {
+    clear: both;
+}
+.hide {
+    display: none;
+}
+/*pro*/
+
+.index_pro {
+    background: url(../images/sea/index_probg.jpg) #fff repeat-x;
+    min-height: 729px;
+    position: relative;
+    background-color: #333;
+}
+.pro_daohang {
+    text-align: center;
+    padding: 25px 0;
+}
+.pro_daohang h2 {
+    display: inline-block;
+    font-size: 32px;
+    color: #fff;
+    line-height: 56px;
+    margin-top: -10px;
+}
+.pro_daohang p {
+    display: inline-block;
+    padding: 0 0px;
+    font-size: 14px;
+    color: #fff;
+}
+.pro_list {
+    width: 1150px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.pro_list .btn {
+    position: absolute;
+    width: 27px;
+    height: 41px;
+    top: 19px;
+    cursor: pointer;
+    z-index: 99;
+    font-size: 50px;
+    font-weight: bold;
+}
+.pro_list li {
+    float: left;
+}
+.pro_list .cf li {
+    position: relative;
+    color: #fff;
+}
+.pro_list .listBox ul {
+    position: absolute;
+}
+.pro_list .listBox li {
+    width: 122px;
+    height: 121px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    padding-left: 0;
+}
+.pro_list .listBox li p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 28px;
+}
+.pro_list .picBox {
+    position: relative;
+    overflow: hidden;
+}
+.pro_list .picBox ul {
+    height: 500px;
+    position: absolute;
+}
+
+.pro_box1 .fl {
+    padding: 50px 0 0 0;
+    width: 50%;
+    height: 100%;
+}
+.pro_box1 .fl p {
+    color: #fff;
+    font-size: 32px;
+    line-height: 48px;
+}
+.pro_box1 .fl p.system_zhaopin a {
+    color: #009da7;
+    font-size: 20px;
+    line-height: 80px;
+}
+.pro_box1 .fl p.pro_select {
+    padding-top: 10px;
+    margin-bottom: 80px
+}
+.pro_box1 .fl p.pro_select a {
+    color: #008a95;
+    font-size: 14px;
+    line-height: 33px;
+    border: 1px solid #008a95;
+    padding: 0 5px 0 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 8px;
+    width: 120px;
+}
+.pro_box1 .fl p.pro_select a img {
+    vertical-align: middle;
+    padding: 0 8px;
+}
+.pro_box1 .fl p.pro_select a:hover {
+    background: #008a95;
+    color: #fff;
+}
+.pro_box1 .fl p.pro_select a:hover .hidden {
+    display: inline;
+}
+.pro_box1 .fl p.pro_select a:hover .pro_selico {
+    display: none;
+}
+.index_pro {
+    background: url(../images/sea/index_probg.jpg) #fff repeat-x;
+    height: 529px;
+    background-color: #333;
+}
+.pro_daohang span {
+    padding: 0 15px;
+    font-size: 14px;
+    background: #00909e;
+    color: #aee7eb;
+}
+.pro_list .btn {
+    position: absolute;
+    width: 27px;
+    height: 41px;
+    top: 19px;
+    cursor: pointer;
+    z-index: 99;
+    font-size: 50px;
+    font-weight: bold;
+}
+.pro_list .prev {
+    left: 0;
+    background: url(../images/sea/yun_prevbtn.png) no-repeat;
+}
+.pro_list .next {
+    right: 0;
+    background: url(../images/sea/yun_nextbtn.png) no-repeat;
+}
+.pro_list li {
+    float: left;
+}
+.pro_list .cf li {
+    position: relative;
+    color: #fff;
+}
+.pro_list .listBox {
+    width: 1100px;
+    height: 121px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.pro_list .listBox ul {
+    position: absolute;
+}
+.pro_jiantou {
+    background: url(../images/sea/pro_icojiantou.png) no-repeat;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 56%;
+    margin-left: -30px;
+    width: 45px;
+    height: 28px;
+}
+.pro_list .listBox .on .pro_jiantou {
+    display: block;
+}
+.pro_list .picBox {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.pro_list .picBox ul {
+    height: 500px;
+    position: absolute;
+}
+.pro_list .picBox li {
+    width: 1150px;
+    height: 500px;
+    padding: 0 40px;
+}
+.pro_box1 .fl p {
+    color: #fff;
+    font-size: 32px;
+    line-height: 48px;
+}
+.pro_box1 .fl p.system_zhaopin a {
+    color: #009da7;
+    font-size: 20px;
+    line-height: 80px;
+}
+.pro_box1 .fl p.pro_select {
+    padding-top: 10px;
+    margin-bottom: 80px
+}
+.pro_box1 .fl p.pro_select a {
+    color: #008a95;
+    font-size: 14px;
+    line-height: 33px;
+    border: 1px solid #008a95;
+    padding: 0 5px 0 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.pro_box1 .fl p.pro_select a img {
+    vertical-align: middle;
+    padding: 0 8px;
+}
+.pro_box1 .fl p.pro_select a:hover {
+    background: #008a95;
+    color: #fff;
+}
+.pro_box1 .fl p.pro_select a:hover .hidden {
+    display: inline;
+}
+.pro_box1 .fl p.pro_select a:hover .pro_selico {
+    display: none;
+}
+.fr{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44%;
+}

@@ -1,0 +1,137 @@
+.background-sea{
+	background-image: url("../images/sea/seaSon-bg.jpg");
+	background-position: top center;
+    background-size:cover;
+}
+.season-ms{
+	width: 60%;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: 200;
+}
+
+.sea-serviceApi-t,.sea-weather-t{
+	width: 1200px
+}
+.sea-serviceApi-t h2,.sea-weather-t h2 , .sea-document-t h2,.sea-application-t h2{
+	margin-left: 60px;
+	padding-top:40px;
+	font-weight: 800;
+	padding-bottom:20px; 
+}
+.sea-serviceApi-cont img{
+	height: 100px;
+}
+.sea-serviceApi-cont h1,.sea-weather-cont h1{
+	font-size: 25px;
+	margin-top: 10px;
+}
+.sea-serviceApi-cont,.sea-weather-cont {
+	overflow: auto; zoom: 1;
+	float: left;
+	width: 376px;
+	text-align: center;
+	padding: 20px 50px;
+}
+
+.sea-serviceApi-cont-ms,.sea-weather-cont-ms{
+	padding-top: 20px;
+	text-align: left;
+	width: 260px;
+	margin-left: 20px;
+}
+.sea-serviceApi-cont-ms,.sea-weather-cont-ms p{
+	
+	font-size: 14px;
+}
+.sea-weather-title{
+	margin-left: 60px;
+	text-align: left;
+	padding:20px 0;
+	font-size: 15px;
+}
+.sea-weather-cont img{
+	height: 200px;
+	width: 300px;
+}
+.sea-weather-cont{
+
+}
+.sea-document-img{
+	padding:40px ;
+	height: 400px;
+	margin-left: 150px;
+	background-image: url("../images/sea/seadocument.png") ;
+	background-size: 100% 400px;
+}
+.sea-application-cont{
+	overflow: auto; zoom: 1;
+}
+.sea-application-font{
+	width: 400px;
+	margin-left: 70px;
+	text-align: left;
+	padding-top: 15px;
+}
+.sea-application-font span{
+	color: #00a2ca;
+	font-size: 20px;
+}
+
+.sea-application-font,.sea-application-img{
+	float: left;
+}
+.sea-application-img{
+	margin-left: 70px;
+	padding-top: 15px;
+}
+.sea-application-img1 img{
+	width: 220px;
+	height: 150px;
+}
+.sea-application-img2 img{
+	width: 220px;
+	height: 150px
+}
+.sea-application-img3 img{
+	width: 220px;
+}
+.sea-application-img4 img{
+	height: 180px;
+	width: 250px;
+}
+#changeROW li{
+
+	font-size: 30px;	
+}
+.y-row{
+	border: 3px solid #00a2ca;
+	padding: 0 30px ;	
+}
+#changeROW li{
+	color: #000;
+}
+/*手机适应*/
+@media screen and (max-width: 1000px){
+	*{
+		width: 100%;
+	}
+	.background-sea p{
+	width: 90%;
+	}
+	.season-ms{
+		font-size: 1.3em;
+		width: 80%;
+	}
+	.sea-serviceApi-t, .sea-weather-t{
+		width: 100%;
+	}
+	.sea-document-img,.sea-weather-title,.sea-serviceApi-t h2, .sea-weather-t h2, .sea-document-t h2, .sea-application-t h2{
+		margin: 0;
+	}
+	.sea-application{
+		display: none;
+	}
+
+}

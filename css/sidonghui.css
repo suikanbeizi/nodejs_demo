@@ -1,0 +1,33 @@
+.background-sidonghui{	
+	background-image: url("../images/sidonghui/photo-bg1.jpg") ;
+    background-size:cover;
+}
+.sidonghui-main{
+	width: 100%;
+	margin-top:100px;
+}
+.smain-title{
+	text-align: center;
+}
+.smain-cont{
+	text-align: center;
+	padding: 50px;
+}
+.smain-cont h5{
+	padding: 8px 0;
+	font-size: 1.4em;
+}
+.smain-cont span{
+	padding: 0 5px;
+	color: orange;
+}
+.smain-ms{
+	padding: 30px 0;
+	background: #96cdb1;
+	color: #fff;
+	text-align: center;
+}
+.smain-ms p{
+	padding: 10px 0;
+	font-size: 1.5em;
+}

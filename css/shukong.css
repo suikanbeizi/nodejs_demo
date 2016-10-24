@@ -1,0 +1,99 @@
+.background-shukong{
+	height: 668px;
+}
+.carousel-caption-1 a{
+	color: white;
+ 
+}
+/*主要职责*/
+.ztc-main{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	zoom:1;
+	margin-top: 100px;
+}
+.main-bor{
+	padding: 50px 0;
+	overflow: auto;
+	zoom:1;
+}
+.main-foot{	
+	overflow: auto;
+	zoom:1;
+	text-align: center;
+	margin: 0 auto;
+	padding: 50px 0;
+
+}
+.main-foot h1{
+	font-weight: 200;
+}
+.zmain-foot{
+	width: 100%;
+	padding: 30px;
+	background: #207EA9;
+}
+
+.zmain-foot a{
+	font-size: 1.2em;
+	color: #fff;
+}
+
+.right-r{
+	padding-left: 50px;
+}
+.zmain-ms,.zmain-foot{
+	text-align: center;
+}
+.mmain-right{
+	width: 100%;
+	height: 700px;
+	margin:0 auto;
+	padding-left: 15%;
+}
+.zmain-ms{
+	width: 300px;
+	height: 320px;
+	float: left;
+	line-height: 300px;
+	text-align: center;
+}
+.zmain-ms h1{
+	padding: 20px 0;
+	font-weight: 200;
+	font-size: 1.15em;
+	display: inline-block;
+
+	border-bottom: 5px solid rgba(255,255,255,0.4); 
+}
+.zmain-ms a{
+	color: #fff;
+}
+@media all and (max-width: 1000px){
+		.background-shukong{
+			width: 100%;
+			height: 400px;
+		}
+		.background-shukong img{
+			width: 100%;
+			height: 400px;
+
+		}
+		.carousel-caption-1{
+			top: 40%;
+			
+		}
+		.main-cont{
+			width: 100%;
+		}
+		.mmain-right{
+			padding: 0;
+		}
+		.zmain-ms{
+			width: 100%;
+		}
+		.right-r{
+			padding: 0;
+		}
+	}

@@ -1,0 +1,282 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* LAYOUT STYLES */
+body {
+    font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"\5B8B\4F53";
+   
+    color:#333;
+}
+
+.banner{
+    width: 100%;
+    height: 668px;
+    position: relative;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+    background: #006699;
+}
+
+.banner-bg{
+    background-image: url(../images/sea/photo-bg1.jpg);
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+}
+
+.banner-text{
+    margin: auto;
+    position: relative;
+    padding: 0;
+}
+
+.banner-text .banner-title{
+    font-size: 4em;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
+
+.banner-text .banner-des{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.banner-text a{
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 16px!important;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    -webkit-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.banner-text a:hover{
+    color: #373d41;
+    background: #fff;
+}
+
+.content-introduce,.content-part{
+    width: 100%;
+    padding-bottom: 68px;
+}
+
+.content-introduce .title,.content-app .title{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.content-introduce .introduce-box,.content-part .part-box{
+   
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content-introduce .introduce-text,.content-introduce .introduce-img{
+    float: left;
+    width: 550px;
+    padding: 0 4%;
+}
+
+.content-introduce .introduce-text p{
+    line-height: 34px;
+    font-size: 16px;
+    color: #666;
+   
+    width: 350px;
+    margin-left: 120px;
+    padding-top: 40px;
+}
+
+.content-introduce .introduce-chart,.part-img{
+    width: 55%;
+    margin: auto;
+}
+
+.index_pro{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.pro-img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #56abe4;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    border-radius: 50%; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    padding: 10px;
+}
+
+.content-part{
+    background-color: rgba(55, 61, 65, 0.05);
+}
+
+.part-box{
+    padding-top: 70px;
+}
+
+.part-box p{
+    padding: 10px 200px;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+}
+
+.part-box p span{
+    font-size: 18px;
+    color: #000;
+}
+
+.part-img{
+    margin-top: 40px;
+}
+
+.bottom-text{
+    padding: 70px 200px;
+    font-size: 20px;
+    color: #333;
+    line-height: 30px;
+   
+}
+
+ol li {
+    list-style-position: inside;
+    list-style: decimal;
+    padding-left: 3px;
+}
+
+dl dt {
+    color: #303030;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+footer a {
+    color: #666;
+}
+footer a:hover {
+    color: #444;
+}
+
+/* MISC */
+.clearfix:after {
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    content: '.';
+}
+
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+/* #Media Queries
+================================================== */
+
+
+.content-lunbo{
+    margin-top: 30px;
+}
+/*手机自适应*/
+@media all and (max-width: 1000px){
+     body{
+        width: 100%;
+       
+    }
+    .banner{
+        width: 100%;
+        height: 400px;
+    }
+    .banner-text a{
+        margin-top: 0;
+    }
+    .banner-text .banner-title{
+        font-size: 1.8em;
+    }
+    .banner-text .banner-des{
+        font-size: 1.3em;
+    }
+    .content-introduce .introduce-chart,.part-img{
+        width: 100%;
+    }
+    .content-introduce .introduce-text,.content-introduce .introduce-img{
+        width: 100%;
+    }
+    .content-introduce .introduce-text p{
+        width: 100%;
+        margin-left: 0;
+    }
+    .content-lunbo{
+        display: none;
+    }
+    .part-box p,.bottom-text{
+        padding: 0;
+    }
+}

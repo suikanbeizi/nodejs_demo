@@ -1,0 +1,82 @@
+.background-dashujuzhitongche{
+	background-image: url("../images/mingyoutang/photo-bg1.jpg") ;
+    background-size:cover;
+}
+
+.myt-main,.mmain-row{
+	width: 100%;
+}
+.mmain-peixun,.mmain-tixi{
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	overflow: auto;
+	zoom: 1;
+	margin-top: 40px;
+}
+.mmain-p-title {
+	padding: 30px; 
+	margin-top: 30px;
+}
+.mmain-p-title h1{
+	font-size: 2.3em;
+	font-weight: 200;
+	color: #0787aa;
+	text-align: center;
+}
+.mmain-p-ms{
+	width: 50%;
+	margin: 0 auto;
+	overflow: auto;
+	zoom: 1;
+	padding-bottom: 30px;
+	background-image: url("../images/mingyoutang/889-01.png" )  ;
+    background-size:100% 400px;
+    height: 400px;
+}
+.mmain-t-title{
+
+}
+.mmain-t-title h1{
+	width: 100%;
+	font-size: 2.3em;
+	font-weight: 200;
+	color: orange;
+	text-align: center;
+}
+.mmain-t-ms{
+	overflow: auto;
+	zoom: 1;
+	padding-bottom: 30px;
+	background-image: url("../images/mingyoutang/photo-bg2.png" )  ;
+    background-size:100% 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+.mmain-f-coop{
+	width: 100%; 
+	overflow: auto;
+	zoom:1;
+	margin-top: 50px;
+	text-align: center;
+	background: #E4EAF0;
+}
+.mmain-f-c{
+	padding: 50px 0;
+	text-align: center;
+	font-size: 2em;
+}
+.mmain-f-coop-ms{
+	width: 80%;
+	margin:0 auto;
+	overflow: auto;
+	zoom:1;
+}
+.mmain-f-coop-ms h1{
+	color: orange;
+}
+@media all and (max-width: 1000px){
+		.mmain-peixun,.mmain-tixi{
+			width: 100%;
+		}
+	}
